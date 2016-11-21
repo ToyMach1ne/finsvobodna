@@ -130,7 +130,7 @@ body {
   text-align: center;
 }
 
-.center {
+  .center {
   margin: 0 auto;
   display: block;
   position: relative;
@@ -138,6 +138,8 @@ body {
   padding: 0px;
   width: 1024px;
 }
+
+
 
 .left {
   float: left;
@@ -1436,13 +1438,22 @@ h1.title {
     font-family: Verdana, Geneva, sans-serif;
     position: relative;
     left: -5px;
-    a {
-      color: #333333;
-      text-decoration: none;
+    li {
       margin: 0 5px;
-      &:hover {
+      display: inline;
+      border-right: 1px solid black;
+          padding-right: 10px;
+      &:last-child {
+        border:none;
+      }
+      a {
+        text-decoration: none;
+        color: #333333;
+        &:hover {
         text-decoration: underline;
       }
+      }
+
     }
   }
   .copyright {
@@ -1614,3 +1625,26 @@ a img.aligncenter {
         background-image: url('http://blog.fin-svoboda.com/wp-content/plugins/wp-polls/../img/default/pollbg.gif');
         border: 1px solid #c8c8c8;
     }
+#bottom {
+  .bot-block {
+        margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    width: 1024px;
+    background:none;
+    border:none;
+  }
+}
+#footer {
+  .footer-block {
+        margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    width: 1024px;
+    border:none;
+  }
+}
