@@ -1,0 +1,1 @@
+(function(){stButtons.processCB({"total":0,"shares":[],"url":"http:\/\/blog.fin-svoboda.com\/blog\/insajt-nedeli-delajte-biznes-igrayuchi","ourl":"http:\/\/blog.fin-svoboda.com\/blog\/insajt-nedeli-delajte-biznes-igrayuchi"})})();
