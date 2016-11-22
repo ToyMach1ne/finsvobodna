@@ -177,6 +177,7 @@
     (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=TYN/44XLYfPVG*3Hwp0hEEH5mMD5qRClNXbWFnY0/0SmVE4tO50aMV1m38S3bCw2GKWa5/AS5e4S9kHqiHz89pCXvufTS/racCsB8equd2IZGTphZKeLSJDZRiUoAne3O4GyTkci9n/FFXYbQMwVokRfEZBIFxEKECkSc8Tx*2k-';
     </script>
     <script charset="UTF-8" src="<?php echo get_template_directory_uri(); ?>/js/893cd11a1988a6c58df28a5c519d7a37_0.js" async=""></script>
+
     <!-- END OF SCRIPTS -->
 
     <div style="position: absolute; right: 0px; left: 0px; bottom: 0px; top: 0px; z-index: 2147483646; background: black; width: 100%; opacity: 0.5; display: none; height: 4528px;"></div>

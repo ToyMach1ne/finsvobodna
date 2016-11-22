@@ -49,22 +49,4 @@
             <div class="clear"></div>
         </div>
     </div>
-    <div class="block" id="header">
-        <div class="center">
-            <h1>Евгений Ходченков:</h1>
-            <p>«Проехал 39 стран, управляя
-                <br> 5-ю бизнесами с Айфона.
-                <br> На этом блоге делюсь только
-                <br>
-                <strong>практическими</strong> наработками в бизнесе»</p>
-            <div id="die">
-                <div class="left">
-                  <a target="_blank" href="https://my.leadpages.net/leadbox/146526673f72a2%3A14b0e849eb46dc/5716216131878912/" data-leadbox="https://my.leadpages.net/leadbox/146526673f72a2%3A14b0e849eb46dc/5716216131878912/" data-leadbox-id="146526673f72a2:14b0e849eb46dc">Получить доступ</a>
-                </div>
-                <div class="right">"137 000 + довольных клиентов не могут ошибаться"</div>
-                <div class="clear"></div>
-                <i></i>
-                <span>Получите доступ к видео материалам, спец отчетам и рассписанию живых встреч в России и за границей </span>
-            </div>
-        </div>
-    </div>
+

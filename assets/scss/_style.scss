@@ -675,7 +675,7 @@ h1.title {
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .home #header {
-  background: url("../img/home-bg.jpg") no-repeat center 0;
+  background: url("../img/test-bg.png") no-repeat center 0;
   .center {
     height: 502px;
   }
@@ -1031,16 +1031,16 @@ h1.title {
         text-indent: -9999px;
       }
       &:nth-child(1) a {
-        background: url("../img/vk.png") no-repeat 0 0;
+        background: url("../img/vk (1).png") no-repeat 0 0;
       }
       &:nth-child(2) a {
-        background: url("../img/instagram.png") no-repeat 0 0;
+        background: url("../img/instagram (1).png") no-repeat 0 0;
       }
       &:nth-child(3) a {
-        background: url("../img/facebook.png") no-repeat 0 0;
+        background: url("../img/facebook (1).png") no-repeat 0 0;
       }
       &:nth-child(4) a {
-        background: url("../img/twitter.png") no-repeat 0 0;
+        background: url("../img/twitter (1).png") no-repeat 0 0;
       }
     }
   }
@@ -1647,4 +1647,170 @@ a img.aligncenter {
     width: 1024px;
     border:none;
   }
+}
+.archive {
+  #page {
+    .center {
+      #die {
+        position: relative;
+        top: -86px;
+    left: -35px;
+        .top {
+          background: url(../img/header-top-bg.png) repeat 0 0;
+    text-align: center;
+    padding: 15px 65px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    width: 894px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'NeoSansProRegular';
+        }
+        .bottom {
+          background: #ebecec;
+    border: 1px solid #ebecec;
+    padding: 25px 55px;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    width: 912px;
+    .left {
+          font-size: 17px;
+    line-height: 22px;
+    color: #373737;
+    font-family: 'Open Sans', sans-serif;
+    width: 540px;
+    }
+    .right {
+      width: 258px;
+    position: relative;
+    i {
+          width: 65px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    z-index: 101;
+    top: 15px;
+    background: url(../img/arrow-header.png) no-repeat 0 0;
+    left: -95px;
+    }
+    a {
+          font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'NeoSansProRegular';
+    text-decoration: none;
+    background: #20a7c9;
+    border-bottom: 3px solid #098cad;
+    display: block;
+    padding: 14px 0 12px;
+    text-align: center;
+    z-index: 102;
+    position: relative;
+    }
+    }
+        }
+      }
+    }
+  }
+}
+.pagination {
+      text-align: center;
+      display: inline-block;
+    width: auto;
+    border-collapse: initial;
+    background: #ebecec;
+    padding: 15px;
+    text-align: center;
+    margin: 30px auto 0;
+    text-transform: uppercase;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+        margin-left: 33%;
+    span {
+          color: #fff;
+    background: #20a7c9;
+    border-bottom: 3px solid #098cad;
+    padding: 4px 8px 2px;
+    margin: 0 2px;
+    }
+    a {
+          padding: 4px 8px 2px;
+    margin: 0 2px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    &:hover {
+      color: #fff;
+    background: #20a7c9;
+    border-bottom: 3px solid #098cad;
+    }
+    }
+}
+.wpcf7-submit {
+  cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'NeoSansProRegular';
+    text-decoration: none;
+    background: #20a7c9;
+    border-bottom: 3px solid #098cad;
+    display: block;
+    padding: 8px 15px 6px;
+    text-align: center;
+    &:hover {
+    background: #098cad;
+    border-bottom: 3px solid #20a7c9;
+    }
+}
+.page-template-page-project {
+  #header {
+  background:url('../img/header-bg-3.jpg') no-repeat center 0;
+  height: 361px;
+  span {
+        font-size: 55px;
+    line-height: 50px;
+    color: #ffffff;
+    font-family: 'NeoSansProLight';
+    display: block;
+    padding: 85px 0 0 55px;
+    width: 400px;
+  }
+}
+#footer {
+      background: #f2f2f2;
+}
+}
+
+.page-template-page-mm {
+  #header {
+    height: 361px;
+    background: url(../img/header-bg.jpg) no-repeat center 0;
+    .center {
+      span {
+      font-size: 55px;
+    line-height: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000;
+    font-family: 'NeoSansProLight';
+    display: block;
+    padding: 85px 0 0 55px;
+    width: 400px;
+  }
+    }
+
+}
+#footer {
+      background: #f2f2f2;
+}
+}
+.page-template-page-contacts {
+  background: #fff url(../img/contact-bg.jpg) no-repeat center 100%;
+    min-height: 940px;
 }
