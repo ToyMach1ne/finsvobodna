@@ -675,7 +675,7 @@ h1.title {
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .home #header {
-  background: url("../img/test-bg.png") no-repeat center 0;
+  background: url("../img/headert-bg.png") no-repeat center 0;
   .center {
     height: 502px;
   }
@@ -1284,15 +1284,12 @@ h1.title {
 }
 
 .widget_search {
-  div {
+  .searchform {
     display: block;
     height: 45px;
     position: relative;
   }
-  label {
-    display: none;
-  }
-  #s {
+  .screen-reader-text {
     border: 1px solid #e4e4e4;
     font-size: 15px;
     line-height: 15px;
@@ -1302,7 +1299,7 @@ h1.title {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 174px;
+    width: 206px;
   }
   #searchsubmit {
     display: block;
@@ -1813,4 +1810,20 @@ a img.aligncenter {
 .page-template-page-contacts {
   background: #fff url(../img/contact-bg.jpg) no-repeat center 100%;
     min-height: 940px;
+}
+.search-page {
+      font-size: 55px;
+    line-height: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000;
+    font-family: 'NeoSansProLight';
+    display: block;
+    padding: 85px 0 0 55px;
+    width: 400px;
+}
+.search-no-results {
+  #header {
+    background: url(../img/header-bg.jpg) no-repeat center 0;
+    height: 361px;
+  }
 }

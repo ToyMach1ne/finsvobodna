@@ -47,6 +47,7 @@
                         </div>
                         <p class="excerpt"><?php wpeExcerpt('wpeExcerpt40'); ?></p>
                         <div class="sharing">
+                          <div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter"></div>
                         </div>
                     </div>
                     <?php endwhile; endif; ?>

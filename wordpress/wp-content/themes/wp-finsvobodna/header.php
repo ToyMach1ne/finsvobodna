@@ -18,6 +18,7 @@
     <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
         -->
     <!--<script type="text/javascript" src="http://blog.fin-svoboda.com/wp-content/themes/evgeniy-hodchenkov/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>-->
+
     <?php wp_head(); ?>
 </head>
 
@@ -32,7 +33,7 @@
     <div class="block" id="top">
         <div class="center">
             <div class="left logo">
-                <a href="<?php echo home_url(); ?>">Евгений Ходченков. Личный блог об удаленном бизнесе.</a>
+                <a href="<?php echo home_url(); ?>">Илья Коровин</a>
             </div>
             <div class="left menu">
                 <?php wpeHeadNav(); ?>

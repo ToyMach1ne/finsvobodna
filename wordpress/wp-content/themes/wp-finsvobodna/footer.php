@@ -66,57 +66,10 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/openapi.js"></script>
-    <script type="text/javascript">
-    VK.init({
-        apiId: 4357455,
-        onlyWidgets: true
-    });
-    </script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/can-i-show.js"></script>
-        <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=606931576080424&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/leadbox-764.js"></script>
     <!-- Put this script tag to the <head> of your page -->
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/openapi(1).js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/openapi(2).js"></script>
-    <script type="text/javascript">
-       VK.Widgets.Subscribe("vk_subscribe", {
-        soft: 1
-         }, 429121);
-    </script>
-    <script>
-      window.twttr = function(t, e, r) {
-      var n, i = t.getElementsByTagName(e)[0],
-      w = window.twttr || {};
-      return t.getElementById(r) ? w : (n = t.createElement(e), n.id = r, n.src = "https://platform.twitter.com/widgets.js", i.parentNode.insertBefore(n, i), w._e = [], w.ready = function(t) {
-      w._e.push(t)
-      }, w)
-      }(document, "script", "twitter-wjs")
-   </script>
-   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/openapi(2).js"></script>
-   <script type="text/javascript">
-    VK.Widgets.Group("vk_groups", {
-      mode: 0,
-      width: "220",
-      height: "400",
-      color1: 'FFFFFF',
-      color2: '2B587A',
-      color3: '5B7FA6'
-      }, 31232679);
-   </script>
+
    <script src="<?php echo get_template_directory_uri(); ?>/js/instansive.js"></script>
-
-
-
 <script>
     $(document).ready(function() {
 
@@ -150,15 +103,6 @@
     });
     </script>
     <!-- Powered by WPtouch: 3.2.4.1 -->
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.form.min.js"></script>
-    <script type="text/javascript">
-    /* <![CDATA[ */
-    var _wpcf7 = {
-        "loaderUrl": "http:\/\/blog.fin-svoboda.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif",
-        "sending": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430..."
-    };
-    /* ]]> */
-    </script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
@@ -177,6 +121,9 @@
     (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=TYN/44XLYfPVG*3Hwp0hEEH5mMD5qRClNXbWFnY0/0SmVE4tO50aMV1m38S3bCw2GKWa5/AS5e4S9kHqiHz89pCXvufTS/racCsB8equd2IZGTphZKeLSJDZRiUoAne3O4GyTkci9n/FFXYbQMwVokRfEZBIFxEKECkSc8Tx*2k-';
     </script>
     <script charset="UTF-8" src="<?php echo get_template_directory_uri(); ?>/js/893cd11a1988a6c58df28a5c519d7a37_0.js" async=""></script>
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+
 
     <!-- END OF SCRIPTS -->
 

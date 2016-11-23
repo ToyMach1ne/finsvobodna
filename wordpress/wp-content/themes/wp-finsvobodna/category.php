@@ -42,4 +42,14 @@
             <div class="clear"></div>
         </div><!-- center -->
     </div><!-- block -->
+    <div class="block" id="bottom">
+  <div class="center">
+     <span><?php the_field('h1title', 86); ?></span>
+      <p><?php the_field('slogan', 86); ?></p>
+       <div>
+         <i></i>
+         <a href="#" target="_blank">Читать меня</a>
+       </div>
+  </div>
+</div>
     <?php get_footer(); ?>
