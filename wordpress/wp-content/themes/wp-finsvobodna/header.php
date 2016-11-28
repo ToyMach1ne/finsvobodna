@@ -38,15 +38,6 @@
             <div class="left menu">
                 <?php wpeHeadNav(); ?>
             </div>
-            <div class="right social">
-                <ul class="social">
-                    <li><a target="_blank" href="http://vk.com/jackson2811">Вконтакте</a></li>
-                    <li><a target="_blank" href="http://instagram.com/e_hodchenkov">Instagram</a></li>
-                    <li><a target="_blank" href="http://www.periscope.tv/e_hodchenkov">Facebook</a></li>
-                    <li><a target="_blank" href="http://telegram.me/hodchenkov">Twitter</a></li>
-                    <div class="clear"></div>
-                </ul>
-            </div>
             <div class="clear"></div>
         </div>
     </div>

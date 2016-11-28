@@ -1,16 +1,6 @@
 <?php get_header(); ?>
 <div class="block" id="header">
             <div class="center">
-                <div id="die">
-                    <div class="top"><?php the_field('top_text', 86); ?></div>
-                    <div class="bottom">
-                        <div class="left"><?php the_field('undertop', 86); ?></div>
-                        <div class="right">
-                            <i></i><a href="#" target="_blank" data-leadbox="https://my.leadpages.net/leadbox/146526673f72a2%3A14b0e849eb46dc/5716216131878912/" data-leadbox-id="146526673f72a2:14b0e849eb46dc">Получить видео</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="block" id="page">
@@ -45,15 +35,5 @@
     <?php get_sidebar(); ?>
     <div class="clear"></div>
 </div>
-</div>
-<div class="block" id="bottom">
-  <div class="center">
-     <span><?php the_field('h1title', 86); ?></span>
-      <p><?php the_field('slogan', 86); ?></p>
-       <div>
-         <i></i>
-         <a href="#" target="_blank">Читать меня</a>
-       </div>
-  </div>
 </div>
 <?php get_footer(); ?>

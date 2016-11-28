@@ -181,6 +181,16 @@ if (function_exists('register_sidebar')) {
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   ));
+    //  Define Sidebar Widget Area 2. If your want to display more widget - uncoment this
+  register_sidebar(array(
+    'name' => __('Виджет записи', 'wpeasy'),
+    'description' => __('Description for this widget-area...', 'wpeasy'),
+    'id' => 'widgetarea2',
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<span class="widget-title">',
+    'after_title' => '</span>'
+  ));
   //  Define Sidebar Widget Area 2. If your want to display more widget - uncoment this
   /*
   register_sidebar(array(

@@ -2,36 +2,6 @@
         <div class="center footer-block">
             <div class="left">
                     <?php wpeFootNav(); ?>
-                <div class="copyright">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>© Сайт Евгения Ходченкова.
-                                    <br> Все права защищены.</td>
-                                <td><a target="_blank" href="https://itunes.apple.com/us/app/tvoj-start/id636523300?l=ru&amp;ls=1&amp;mt=8" class="app-store">App Store</a></td>
-                                <td>|</td>
-                                <td><a target="_blank" href="https://play.google.com/store/apps/details?id=com.app_evghod.layout&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcHBfZXZnaG9kLmxheW91dCJd" class="google-play">Google play</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="agreement">
-                    <ul id="menu-menyu-soglashenij" class="agreement-menu">
-                        <li id="menu-item-12404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12404"><a href="http://tvoy-start.com/docs/privacy_policy.html">Политика конфидициальности</a></li>
-                        <li id="menu-item-12405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12405"><a href="http://s.tvoy-start.ru/wppage/otkaz-ot-otvet">Отказ от ответственности</a></li>
-                        <li id="menu-item-12406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12406"><a href="http://tvoy-start.ru/docs/oferta_e.pdf">Согласие с рассылкой</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="right">
-                <p class="become-a-partner"><a target="_blank" href="http://bizcase-lab.postaffiliatepro.com/affiliates/signup.php?a_aid=j2811_2016">Стать моим партнером</a></p>
-                <ul class="social">
-                    <li><a target="_blank" href="http://vk.com/jackson2811">Наша группа в контакте</a></li>
-                    <li><a target="_blank" href="http://instagram.com/e_hodchenkov">Лента новостей в instagram</a></li>
-                    <li><a target="_blank" href="http://www.periscope.tv/e_hodchenkov">Сообщество в facebook</a></li>
-                    <li><a target="_blank" href="http://telegram.me/hodchenkov">Последние новости в twitter</a></li>
-                    <div class="clear"></div>
-                </ul>
             </div>
             <div class="clear"></div>
         </div>
