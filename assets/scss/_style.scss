@@ -250,6 +250,7 @@ body {
   }
   .page-right {
     width: 258px;
+    padding-top: 45px;
 }
 }
 
@@ -1868,4 +1869,7 @@ a img.aligncenter {
     background: url(../img/header-bg.jpg) no-repeat center 0;
     height: 361px;
   }
+}
+.content-block {
+  margin-top: -85px;
 }

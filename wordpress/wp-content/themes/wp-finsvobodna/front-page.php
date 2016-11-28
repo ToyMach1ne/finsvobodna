@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="block" id="page">
-        <div class="center">
+        <div class="center content-block">
             <div class="left page-left">
                 <h1 class="title">Блог автора</h1>
                 <div id="list-blog">
