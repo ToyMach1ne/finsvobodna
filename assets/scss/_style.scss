@@ -718,9 +718,20 @@ h1.title {
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .home #header {
-  background: url("../img/headert-bg.png") no-repeat center 0;
+  background: url("../img/test-bg.png") no-repeat center 0;
+
   .center {
     height: 502px;
+    &:before {
+    display: block;
+    content:'';
+    background: url("../img/man-header.png") no-repeat center 0;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    top: 123px;
+  }
   }
   h1 {
     font-size: 55px;
@@ -1873,3 +1884,4 @@ a img.aligncenter {
 .content-block {
   margin-top: -85px;
 }
+
