@@ -721,7 +721,7 @@ h1.title {
   background: url("../img/test-bg.png") no-repeat center 0;
 
   .center {
-    height: 502px;
+    height: 450px;
     &:before {
     display: block;
     content:'';
@@ -730,7 +730,7 @@ h1.title {
     height: 350px;
     position: absolute;
     right: 0;
-    top: 123px;
+    top: 4px;
   }
   }
   h1 {
@@ -739,7 +739,7 @@ h1.title {
     color: #ffffff;
     font-family: 'NeoSansProLight';
     display: block;
-    padding: 64px 0 30px 75px;
+    padding: 30px 0 30px 75px;
   }
   p {
     color: #ffffff;
@@ -1882,6 +1882,6 @@ a img.aligncenter {
   }
 }
 .content-block {
-  margin-top: -85px;
+  margin-top: -110px;
 }
 
