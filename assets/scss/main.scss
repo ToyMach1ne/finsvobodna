@@ -1053,6 +1053,10 @@ h1.title {
     float: right;
     margin: 0 0 10px 15px;
   }
+  iframe {
+    display: block;
+    max-width: 100%;
+  }
 }
 
 #list-comments {
