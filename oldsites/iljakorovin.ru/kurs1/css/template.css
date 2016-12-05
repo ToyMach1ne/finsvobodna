@@ -1,0 +1,975 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	width: 100%;
+}
+#wrapper {
+	width: auto;
+	/* min-height: 100%; */
+	min-width: 1000px;
+}
+.header {
+	background-color: #1f6ea0;
+	height: 63px;
+	width: 100%;
+}
+.head-box {
+	height: 63px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+	font-family: Calibri, Arial, sans-serif;
+}
+.logo {
+	float: left;
+	height: 63px;
+	width: 115px;
+	padding-top: 10px;
+}
+.logo h1 {
+	font-weight: bold;
+	font-size: 26px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.logo p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+	line-height: 85%;
+}
+.telefon {
+	text-align: right;
+	float: right;
+	height: 33px;
+	width: 156px;
+	margin-top: 16px;
+	background-color: #fccc0a;
+}
+div.telefon {
+}
+.telefon .t-nomer {
+	font-size: 20px;
+	font-weight: bold;
+}
+.telefon .t-forma a {
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 8px 0px 0px;
+}
+.inform {
+	float: right;
+	margin: 4px 33px 0px 12px;
+	line-height: 25px;
+}
+.inform span {
+	display: block;
+}
+.inform .t-nomer {
+	font-size: 20px;
+	font-weight: bold;
+}
+.inform .t-city {
+	font-size: 19px;
+}
+#shape {
+	background-color: #f4f3ed;
+	width: 100%;
+	-moz-box-shadow: 0px 2px 15px #4d4244;
+	-webkit-box-shadow: 0px 2px 15px #4d4244;
+	box-shadow: 0px 2px 15px #4d4244;
+filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 180, color = '#4d4244');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 180, Color = '#4d4244')";
+}
+#center {
+	width: auto;
+	overflow: hidden;
+	margin: 25px 0px;
+}
+#center h3 {
+	font-weight: bold;
+	font-size: 22px;
+	color: #de2d2d;
+	line-height: normal;
+	margin-bottom: 40px;
+}
+#center h4 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+}
+#center p {
+	margin-top: 20px;
+	color: #2a2e33;
+}
+#right {
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.pointer {
+	cursor: pointer;
+}
+#forma-right {
+	background-color: #69d1dc;
+	width: 100%;
+	margin-top: 70px;
+	padding-top: 18px;
+	padding-right: 13px;
+	padding-left: 13px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#forma-right form {
+	margin: 19px 8px 19px 11px;
+}
+#f-center {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#shape-box {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	padding-bottom: 31px;
+}
+#trigger {
+	height: 610px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+}
+#tr-center {
+	overflow: hidden;
+}
+#tr-imag {
+	height: 140px;
+	width: 140px;
+	margin-right: 20px;
+	float: left;
+}
+#tr-box {
+	height: 140px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.preimushestva {
+	background-color: #f4f3ed;
+	background-image: url(../images/preim-back.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+#preim-center {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#poloska {
+	border-top: 4px solid #4d4244;
+	padding-left: 220px;
+	padding-right: 220px;
+	margin-bottom: 20px;
+	width: 1000px;
+}
+#poloska h2 {
+	clear: both;
+	background-color: #f4f3ed;
+	font-size: 28px;
+	color: #4d4244;
+	text-align: center;
+	margin-top: -17px;
+	font-weight: bold;
+}
+#prem-box {
+	height: 240px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#prem-box-img {
+	width: 164px;
+	height: 117px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.preimushestva-bot {
+	background-image: url(../images/preim-back2.png);
+	background-repeat: repeat-x;
+	height: 11px;
+	width: 100%;
+}
+.video-work {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	overflow: hidden;
+}
+.v-cont {
+	width: auto;
+}
+.v-cont .color-price {
+	color: #ff4e00;
+	font-size: 24px;
+	display: block;
+	font-weight: bold;
+}
+.video {
+	float: center;
+	width: 225px;
+	margin-right: 10px;
+	position: relative;
+}
+.treugolnick {
+	position: absolute;
+	z-index: 200;
+	width: 225px;
+	height: 177px;
+
+
+
+
+
+
+
+
+	cursor: pointer;
+	background-image: url(../images/treug.png);
+	background-repeat: no-repeat;
+}
+.marg-v {
+	height: 130px;
+	float: left;
+}
+.v-work {
+	width: 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#v-logo {
+	background-image: url(../images/v-logo.png);
+	background-repeat: no-repeat;
+	height: 145px;
+	width: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+#how-top {
+	background-image: url(../images/wework.png);
+	background-repeat: repeat-x;
+	height: 10px;
+	width: 100%;
+}
+#how-work {
+	background-color: #0b3954;
+	/* height: 469px; */
+	width: 100%;
+}
+#w-center {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+#poloska2 {
+	border-top: 4px solid #fff;
+	padding-left: 330px;
+	padding-right: 330px;
+	margin-bottom: 20px;
+	width: 1000px;
+}
+#poloska2 h2 {
+	clear: both;
+	background-color: #0b3954;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-top: -17px;
+	font-weight: bold;
+}
+#c-5 {
+	height: 85px;
+}
+#colonka5 {
+	float: left;
+	height: 70px;
+	width: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #fff;
+}
+#strelky {
+	background-image: url(../images/lenta.png);
+	background-repeat: no-repeat;
+	height: 75px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#colonka4 {
+	float: left;
+	height: 60px;
+	width: 25%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #fff;
+}
+#how-bot {
+	/* background-image: url(../images/wework2.png); */
+	/* background-repeat: repeat-x; */
+	/* height: 9px; */
+	margin-top: -10px;
+	width: 100%;
+}
+#tarif {
+	height: 1789px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 32px;
+	position: relative;
+}
+#map {
+	height: 500px;
+	width: 100%;
+}
+.tar-box {
+	background-color: #f3eeea;
+	float: left;
+	width: 300px;
+	-moz-box-shadow: 0px 2px 6px #999;
+	-webkit-box-shadow: 0px 2px 6px #999;
+	box-shadow: 0px 2px 6px #999;
+ filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 180, color = '#999');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 180, Color = '#999')";
+	overflow: hidden;
+}
+.tar-box+.tar-box {
+	margin-left: 50px;
+}
+.tar-head {
+	color: #FFF;
+	text-align: center;
+	height: 55px;
+	width: 100%;
+	padding-top: 10px;
+}
+.tar-head span {
+	font-size: 25px;
+	font-weight: bold;
+}
+.color1 {
+	background-color: #12ab90;
+}
+.color2 {
+	background-color: #06929e;
+}
+.color3 {
+	background-color: #911a36;
+}
+.tar-center {
+	height: 420px;
+	width: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.tar-center li {
+	margin-bottom: 10px;
+}
+.tar-foot {
+	color: #000;
+	background-color: #ded4cd;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	padding-top: 6px;
+}
+#bot-form {
+	float: left;
+	height: 450px;
+	width: 300px;
+	margin-top: 550px;
+	margin-left: 700px;
+	position: absolute;
+	z-index: 1000;
+	background-image: url(../images/f-back.png);
+	background-repeat: repeat;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#bot-form h3 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: normal;
+	color: #fff;
+}
+#tarif h5 {
+	color: #fff;
+	text-align: center;
+}
+#my-info {
+	color: #FFF;
+}
+#bot-form a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#modal0_fon {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	background-color: #000;
+	display: none;
+	z-index: 1999;
+}
+#modal0_content {
+	width: 605px;
+	height: 386px;
+	opacity: 0;
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	background-color: #fff;
+	display: none;
+	z-index: 2000;
+	border: #FFF 10px solid;
+}
+#x {
+	position: absolute;
+	right: -25px;
+	top: -25px;
+	display: none;
+	z-index: 2005;
+	width: 30px;
+	height: 30px;
+	background: url(../images/x.png);
+	cursor: pointer;
+}
+#modal0_content_fon {
+	background-color: #000;
+	width: 585px;
+	height: 366px;
+	display: none;
+}
+#form_2, #form_3 {
+	width: 170px;
+	margin: -10px -10px;
+}
+.iframe-container {
+	display: table;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+.policy {
+	padding-bottom: 200px;
+}
+/*--------------------------by Bulavin (Amid)-----------------------------------------*/
+/*--------------------------timer-----------------------------------------------------*/
+.first-my {
+	/* width: 260px; */
+	padding: 0px;
+	text-align: center;
+}
+.first-my .result span {
+	padding: 23px 17px 33px;
+	display: inline-block;
+	margin: 8px 8px 1px -5px;
+	font-size: 32px;
+	font-weight: bold;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #ffffff; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+ /* IE6-9 */
+}
+.first-my .result {
+	float: right;
+}
+.first-my .titles {
+	position: relative;
+	height: 0;
+	right: -21px;
+	top: 42px;
+}
+.first-my .titles span {
+	font-size: 12px;
+	position: relative;
+	top: 13px;
+}
+.first-my .titles span.ss {
+	right: -26px;
+}
+.first-my .titles span.mm {
+	right: 17px;
+}
+.first-my .titles span.hh {
+	right: 61px;
+}
+.first-my .titles span.dd {
+	right: 62px;
+}
+.first-my p.titloftimer {
+	font-size: 20px;
+	font-family: calibri;
+	margin: 0 auto;
+	left: 10px;
+	position: relative;
+}
+.clearf {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}/*ресет*/
+.timerhello span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.timerhello p {
+	font-size: 100%;
+	font: inherit;
+	color: #191919;
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+	margin: 0 auto;
+	line-height: 17px;
+}
+p.hellotimercopy {
+	display: none!important;
+}
+/*end timer----------------------------*/
+.work {
+	display: block;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 6px;
+}
+.email {
+ 
+	font-size: 20px;
+	margin-top: 12px;
+	
+}
+.descrip{
+	padding: 13px 0 10px;
+}
+.descrip h1 {
+	text-transform: uppercase;
+	font-size: 46px;
+	text-align: center;
+}
+.descrip h1>span, h2>span {
+	background: #fccc0a;
+	padding: 0 10px 0 10px;
+}
+.descrip h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 14px;
+}
+.descrip h3 {
+	text-align: center;
+	color: #1f6ea0;
+	font-size: 23px;
+}
+#forma-right h3 {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.txt_forma_right{
+	font-size: 16px;
+	/* font-weight: bold; */
+	margin: 8px auto;
+	line-height: 23px;
+	text-align: justify;
+	width: 265px;
+}
+.txt_forma_right span{
+	
+	background: #fccc0a;
+}
+#f-center h5{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+.tar-center span{
+	font-weight: bold;
+  font-size: 13.5px;
+}
+.txt_rek{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 29px;
+	text-align: justify;
+}
+.txt_rek>span{
+	
+	background: #fccc0a;
+}
+.txt_adress{
+	
+	width: 1000px;
+	margin: 8px auto;
+	font-size: 24px;
+	text-align: center;
+}
+	#tarif h2{
+		color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	
+		font-size: 40px;
+	font-weight: bold;
+	
+		margin: -8px 0px 7px;
+}
+.tar-box>.telefon{
+  text-align: center;
+  float: left;
+  height: 50px;
+  width: 300px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+.tar-box>.telefon .t-forma a {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+
+
+.tabl_1{
+	font-size: 23px;
+	font-weight: bold;
+	padding: 20px 0 35px;
+}
+.tabl_1>span{
+	background: #fccc0a;
+}
+.tabl_1 table{
+	
+	font-size: 14px;
+	font-weight: normal;
+	width: 100%; /* Ширина таблицы */
+    
+	border: 1px solid black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+	margin-top: 20px;
+}
+.tabl_1 th {  /* Выравнивание по левому краю */
+background: #69d1dc;
+	font-size: 18px;
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   
+    text-align: center;
+}
+
+/*
+.th_plus{
+	background: #12ab90;
+}
+.th_minus{
+	background: #911a36;
+}*/
+.tabl_1 td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+    width: 50%;
+    vertical-align: top;
+}
+.tabl_2{
+	width: 1000px;
+    font-size: 23px;
+  font-weight: bold;
+  padding: 20px 0;
+	margin: 0 auto 20px;
+	/* text-align: center; */
+}
+.tabl_2 table{
+	
+	font-size: 14px;
+	font-weight: normal;
+	width: 100%; /* Ширина таблицы */
+    
+	border: 1px solid black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+	margin-top: 20px;
+}
+.tabl_2 th {  /* Выравнивание по левому краю */
+background: #69d1dc;
+	font-size: 18px;
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   
+    text-align: center;
+}
+/*
+.th_plus{
+	background: #12ab90;
+}
+.th_minus{
+	background: #911a36;
+}*/
+.tabl_2 td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+    width: 50%;
+    vertical-align: top;
+}
+.ul_plus{
+	padding-left: 0px;
+}
+.ul_minus{
+	padding-left: 0px;
+}
+.ul_plus>li{
+    list-style-type: none; /* Убираем маркеры у списка */
+	padding-bottom: 10px;
+   
+    font-size: 18px;
+}
+.ul_plus>li:before {
+  content: "+ ";
+  color: #12ab90;
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  top: 9px;
+   }
+   
+   .ul_minus>li{
+    list-style-type: none; /* Убираем маркеры у списка */
+	padding-bottom: 10px;
+   
+    font-size: 18px;
+}
+.ul_minus>li:before {
+    content: "- "; /* Добавляем в качестве маркера символ */
+	color: #911a36;
+  font-weight: bold;
+  
+    font-size: 40px;
+  position: relative;
+  
+    top: 6px;
+   }
+   .marg_1{
+    width: 92px;
+   
+    float: right;
+    font-size: 85%;
+    margin-top: -10px;
+    line-height: 18px;
+}
+   .marg_2{
+    width: 135px;
+   
+    font-size: 85%;
+    float: right;
+    margin-top: -10px;
+    line-height: 18px;
+}
+.row h2{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 26px 0px 21px;
+}
+.clients_container{
+	overflow:hidden;
+	width:1000px
+;
+	padding-bottom: 27px;
+}
+.clients_box{
+	white-space:nowrap
+}
+.clients_box div{
+	width:195px;
+	/* padding: 0px 5px; */
+	display:inline-block;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.clients_box div>span{
+	width:195px;
+	/* padding: 0px 5px; */
+	display:inline-block;
+	text-align: center;
+	font-size: 21px;
+	font-weight: normal;
+}
+
+.promo6 {
+  padding-bottom: 27px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.promo6:before,
+.promo6:after {
+  content: " ";
+  display: table;
+}
+.promo6:after {
+  clear: both;
+}
+.promo6 h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 17px 0 2px;
+}
+.wewin {
+  background: #E5E5E5;
+  padding: 20px 15px;
+  margin: 0 -15px;
+}
+.wewin:before,
+.wewin:after {
+  content: " ";
+  display: table;
+}
+.wewin:after {
+  clear: both;
+}
+.wewin img {
+  width: 222px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 115px;
+}
+.wewin q {
+  quotes: "\0022" "\0022";
+  display: block;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.wewin .sign {
+  font-size: 18px;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.docs {
+  margin: 0;
+  padding: 0;
+  /* width: 205px; */
+  display: block; /* добавляем блочность, если необходимо */
+    font-size: 0; /* убираем нежелательные отсутпы у дочерних элементов */
+}
+.docs:before {
+    content:''; /* и */
+    height: 100%; /* вот */
+    display: inline-block; /* оно! */
+}
+.docs li {
+  list-style-type: none;
+  width: 330px;
+  padding: 0px 5px;
+  
+    font-size: 16px; /* возвращаем размер шрифта */
+    display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+}
+.docs:before, li {
+    vertical-align: bottom; /* еще вот */
+}
+.docs .scan {
+  padding: 20px;
+  background: url('../images/ramka.png') no-repeat 0 0;
+  width: 176px;
+  height: 233px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.docs .title {
+  /* white-space: nowrap; */
+  width: 320px;
+  text-align: center;
+}
+
+.number-2-title{
+	padding-bottom: 0px;
+	 width: 320px;
+  text-align: center;
+	}
+
+.docs .num {
+  text-align: center;
+}
+
+.docs .num-otmena{
+	padding-top: 23px;
+	padding-left: 58px;
+}
+.docs .hidden {
+  display: none;
+}
+.neznanie_zakona{
+	padding-left: 0;
+  list-style: none;
+	padding-top: 0px;
+	padding-bottom: 8px;
+}
+.neznanie_zakona li{
+    font-size: 20px;
+    width: 850px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.delaem{
+	color: #fff;
+  list-style: none;
+	padding-top: 10px;
+}
+.delaem li{
+    font-size: 20px;
+    width: 850px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.form_top{
+	padding: 0px 0px 20px;;
+}
+.all_pole{
+    text-align: center;
+	
+    font-size: 11px;
+    margin: -5px 0px;
+    color: #E00000;
+}

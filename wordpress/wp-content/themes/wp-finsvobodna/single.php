@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-<div class="block" id="header">
+
+<!-- <div class="block" id="header">
             <div class="center">
             </div>
-        </div>
+        </div> -->
         <div class="block" id="page">
     <div class="center">
         <div class="left page-left">
