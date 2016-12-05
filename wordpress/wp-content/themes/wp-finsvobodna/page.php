@@ -1,18 +1,21 @@
 <?php get_header(); ?>
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <div class="block" id="page">
+    <div class="center">
+        <div class="left page-left">
+            <h1 class="title"><?php the_title(); ?></h1>
+        </div>
+        <div class="clear"></div>
+        <div class="left page-left">
+            <div class="content">
+              <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <p><?php the_content(); ?></p>
+              <?php endwhile; endif; ?>
+              <div class="clear"></div>
+            </div>
+        </div>
+        <?php get_sidebar(); ?>
+        <div class="clear"></div>
+    </div><!-- center -->
+</div>
 
-      <h1 class="page-title inner-title"><?php the_title(); ?></h1>
-      <?php the_content(); ?>
-      <?php edit_post_link(); ?>
-
-    </article>
-  <?php endwhile; else: // If 404 page error ?>
-    <article>
-
-      <h2 class="page-title inner-title"><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h2>
-
-    </article>
-  <?php endif; ?>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

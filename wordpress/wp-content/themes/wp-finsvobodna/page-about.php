@@ -1,26 +1,29 @@
 <?php /* Template Name: About */ get_header(); ?>
-<div class="block" id="header">
+<!-- <div class="block" id="header">
       <div class="center">
         <p>«Тот, кто не может располагать 2/3 <br>
 дня лично для себя, должен быть  <br>
 назван рабом.»  </p>
         <span>Фридрих Ницше</span>
       </div>
-    </div>
-    <div class="block" id="page">
+    </div> -->
+  <div class="block" id="page">
     <div class="center">
-        <div class="content">
-            <p>
-              Здесь Должно быть видео
-            </p>
+        <div class="left page-left">
+            <h1 class="title"><?php the_title(); ?></h1>
         </div>
-        <div class="left">
-
+        <div class="clear"></div>
+        <div class="left page-left">
+            <div class="content">
+              <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <p><?php the_content(); ?></p>
+              <?php endwhile; endif; ?>
+              <div class="clear"></div>
+            </div>
         </div>
-        <div class="right">
-        </div>
+        <?php get_sidebar(); ?>
         <div class="clear"></div>
     </div><!-- center -->
 </div>
 
-    <?php get_footer(); ?>
+<?php get_footer(); ?>

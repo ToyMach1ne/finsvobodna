@@ -1,9 +1,9 @@
 <?php /* Template Name: MM */ get_header(); ?>
-<div class="block" id="header">
+<!-- <div class="block" id="header">
         <div class="center">
             <span><?php the_title(); ?></span>
         </div>
-    </div>
+    </div> -->
 <div class="block" id="page">
     <div class="center">
         <h1 class="title"><?php the_title(); ?></h1>
