@@ -1,7 +1,7 @@
 <div class="block" id="footer">
         <div class="center footer-block">
             <div class="left">
-                    <?php wpeFootNav(); ?>
+              <?php wpeFootNav(); ?>
             </div>
             <div class="clear"></div>
         </div>
@@ -30,11 +30,7 @@
             <a class="close">Закрыть</a>
         </div>
     </div>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/leadbox-764.js"></script>
-   <script src="<?php echo get_template_directory_uri(); ?>/js/instansive.js"></script>
+      <?php wp_footer(); ?>
     <script>
     $(document).ready(function() {
 
@@ -66,6 +62,16 @@
         });
 
     });
+    </script>
+    <script type="text/javascript">(function(w,doc) {
+      if (!w.__utlWdgt ) {
+          w.__utlWdgt = true;
+          var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
+          s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+          s.src = 'https://w.uptolike.com/widgets/v1/uptolike.js';
+          var h=d[g]('body')[0];
+          h.appendChild(s);
+      }})(window,document);
     </script>
 
     <div style="position: absolute; right: 0px; left: 0px; bottom: 0px; top: 0px; z-index: 2147483646; background: black; width: 100%; opacity: 0.5; display: none; height: 4528px;"></div>
